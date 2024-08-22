@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 2px,solid,#b8ddf8;
+        }
+    </style>
+    
+</head>
+<body>
+    <div contenteditable="true"></div>
+</body>
+</html>
+<script>
+    var div=document.querySelector('div');
+    console.log(div);
+    div.onkeydown=function(e){
+        console.log(e);
+        console.log(e);
+    }
+</script>
